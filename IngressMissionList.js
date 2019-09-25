@@ -9,6 +9,8 @@
 // @grant        GM_addStyle
 // @grant        GM_getResourceText
 // @grant        GM_getResourceURL
+// @updateURL    https://raw.githubusercontent.com/aysav/IngressMissionList/master/IngressMissionList.js
+// @downloadURL  https://raw.githubusercontent.com/aysav/IngressMissionList/master/IngressMissionList.js
 // ==/UserScript==
 
 (function() {
