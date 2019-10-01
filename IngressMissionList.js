@@ -1,14 +1,11 @@
 // ==UserScript==
 // @name         IngressMissionList
 // @namespace    http://tampermonkey.net/
-// @version      0.2
+// @version      0.3
 // @description  try to take over the world!
 // @author       aysav
 // @match        https://mission-author-dot-betaspike.appspot.com
 // @require      http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js
-// @grant        GM_addStyle
-// @grant        GM_getResourceText
-// @grant        GM_getResourceURL
 // @updateURL    https://raw.githubusercontent.com/aysav/IngressMissionList/master/IngressMissionList.js
 // @downloadURL  https://raw.githubusercontent.com/aysav/IngressMissionList/master/IngressMissionList.js
 // ==/UserScript==
@@ -40,6 +37,11 @@
                          caption: "Draft",
                          func_id: "btn-mis-draft",
                          func: function (){$(".missions-list>div").hide();$(".mission-list-item-draft").show();}
+                     },
+                     {
+                         caption: "Withdraw Draft",
+                         func_id: "btn-mis-Withdraw",
+                         func: function (){$(".missions-list>div").hide();$(".mission-list-item-submitted_and_published").show();}
                      }
                    ];
 
