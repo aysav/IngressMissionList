@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         IngressMissionList
 // @namespace    http://tampermonkey.net/
-// @version      0.31
+// @version      0.3.1
 // @description  try to take over the world!
 // @author       aysav
 // @match        https://missions.ingress.com/
