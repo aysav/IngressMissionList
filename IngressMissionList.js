@@ -1,10 +1,10 @@
 // ==UserScript==
 // @name         IngressMissionList
 // @namespace    http://tampermonkey.net/
-// @version      0.3
+// @version      0.31
 // @description  try to take over the world!
 // @author       aysav
-// @match        https://mission-author-dot-betaspike.appspot.com
+// @match        https://missions.ingress.com/
 // @require      http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js
 // @updateURL    https://raw.githubusercontent.com/aysav/IngressMissionList/master/IngressMissionList.js
 // @downloadURL  https://raw.githubusercontent.com/aysav/IngressMissionList/master/IngressMissionList.js
